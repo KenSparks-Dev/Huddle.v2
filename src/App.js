@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
 import MainImage from './components/MainImage'
 import Text from './components/Text'
 import 'font-awesome/css/font-awesome.css'

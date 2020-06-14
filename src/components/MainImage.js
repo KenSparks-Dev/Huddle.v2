@@ -7,7 +7,7 @@ export class MainImage extends Component {
         <div className="header">
           <h3><span><i className="fa fa-comments"></i></span> Huddle</h3>
         </div>
-        <img src={Illustration} />
+        <img src={Illustration} alt="Main-img"/>
       </div>
     )
   }
