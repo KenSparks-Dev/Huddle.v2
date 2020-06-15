@@ -3,8 +3,8 @@
 	font-family: 'Open Sans', sans-serif;
 	color: white;
 	background-image: url("./images/bg-mobile.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 html,
@@ -51,8 +51,8 @@ img {
 	border: none;
 	padding: 8px 70px;
 	font-weight: 400;
-  box-shadow: 1px 2px 5px 1px black;
-  background:#fff;
+	box-shadow: 1px 2px 5px 1px black;
+	background: #fff;
 }
 .social-icons {
 	display: flex;
@@ -64,6 +64,51 @@ img {
 	padding: 6px;
 	margin: 5px;
 }
+/*animation*/
+.fadeIn-header,.fadeIn-image,.fadeIn-midheader,.fadeIn-para,.fadeIn-button, .fadeIn-icons {
+	animation: fadeIn 6s;
+	position: relative;
+	animation-timing-function: ease;
+}
+/* .fadeIn-image {
+	animation: fadeIn 6s;
+	position: relative;
+	animation-timing-function: ease;
+} */
+/* .fadeIn-midheader {
+	animation: fadeIn 6s;
+	position: relative;
+	animation-timing-function: ease;
+} */
+/* .fadeIn-para {
+	animation: fadeIn 6s;
+	position: relative;
+	animation-timing-function: ease;
+} */
+/* .fadeIn-button {
+	animation: fadeIn 6s;
+	position: relative;
+	animation-timing-function: ease;
+} */
+/* .fadeIn-icons {
+	animation: fadeIn 6s;
+	position: relative;
+	animation-timing-function: ease;
+} */
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		top: -650px;
+		
+}
+	to {
+		opacity: 1;
+		top: 0px;
+}
+	
+}
+
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 	.App {
@@ -141,8 +186,8 @@ img {
 		font-size: 3em;
 	}
 	.text {
-    width: 600px;
-    margin-bottom:40;
+		width: 600px;
+		margin-bottom: 40;
 		margin-left: 30px;
 	}
 	.text h4 {
