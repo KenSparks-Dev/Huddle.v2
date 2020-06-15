@@ -65,46 +65,48 @@ img {
 	margin: 5px;
 }
 /*animation*/
-.fadeIn-header {
+.fadeIn-header,.fadeIn-image,.fadeIn-midheader,.fadeIn-para,.fadeIn-button, .fadeIn-icons {
 	animation: fadeIn 6s;
 	position: relative;
 	animation-timing-function: ease;
 }
-.fadeIn-image {
+/* .fadeIn-image {
 	animation: fadeIn 6s;
 	position: relative;
 	animation-timing-function: ease;
-}
-.fadeIn-midheader {
+} */
+/* .fadeIn-midheader {
 	animation: fadeIn 6s;
 	position: relative;
 	animation-timing-function: ease;
-}
-.fadeIn-para {
+} */
+/* .fadeIn-para {
 	animation: fadeIn 6s;
 	position: relative;
 	animation-timing-function: ease;
-}
-.fadeIn-button {
+} */
+/* .fadeIn-button {
 	animation: fadeIn 6s;
 	position: relative;
 	animation-timing-function: ease;
-}
-.fadeIn-icons {
+} */
+/* .fadeIn-icons {
 	animation: fadeIn 6s;
 	position: relative;
 	animation-timing-function: ease;
-}
+} */
 
 @keyframes fadeIn {
 	from {
 		opacity: 0;
-		top: -70px;
-	}
+		top: -650px;
+		
+}
 	to {
 		opacity: 1;
 		top: 0px;
-	}
+}
+	
 }
 
 /* // Medium devices (tablets, 768px and up) */
