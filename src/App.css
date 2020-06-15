@@ -99,14 +99,12 @@ img {
 @keyframes fadeIn {
 	from {
 		opacity: 0;
-		top: -650px;
-		
-}
+		transform: translatey(-650px);
+	}
 	to {
 		opacity: 1;
-		top: 0px;
-}
-	
+		transform: translatex(0px);
+	}
 }
 
 /* // Medium devices (tablets, 768px and up) */
