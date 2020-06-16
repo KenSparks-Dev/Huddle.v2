@@ -20,15 +20,12 @@ body,
 img {
 	width: 100%;
 }
-.header{
-  text-decoration: none;
-}
+
 .header h3 {
 	font-family: 'Poppins', sans-serif;
 	padding-top: 35px;
 	font-weight: 700;
 	margin-bottom: 40px;
-	color:white;
 }
 .illustration {
 	margin-bottom: 50px;
