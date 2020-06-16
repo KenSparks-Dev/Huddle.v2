@@ -4,9 +4,10 @@ class Footer extends Component {
   render() {
     return (
         <div className="social-icons fadeIn-icons">
-        <span><i className="fa fa-facebook-f fa-lg"></i></span>
-        <span><i className="fa fa-twitter fa-lg"></i></span>
-          <span><i className="fa fa-instagram fa-lg"></i></span>
+        <a href="https://www.linkedin.com/in/kensparks90/" target="_blank" ><i className="fa fa-linkedin fa-lg"></i></a>
+        <a href="https://twitter.com/KenSparks90" target="_blank"><i className="fa fa-twitter fa-lg"></i></a>
+        <a href="https://www.instagram.com/kensparks90/" target="_blank"><i className="fa fa-instagram fa-lg"></i></a>
+        <a href="https://github.com/KenSparksDev/Huddle" target="_blank"><i className="fa fa-github fa-lg"></i></a>
         </div>
     )
   }
