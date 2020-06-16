@@ -3,8 +3,8 @@
 	font-family: 'Open Sans', sans-serif;
 	color: white;
 	background-image: url("./images/bg-mobile.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 html,
@@ -28,22 +28,26 @@ img {
 	margin-bottom: 40px;
 }
 .illustration {
-	margin-bottom: 60px;
+	margin-bottom: 50px;
 	width: 100%;
 }
 
 .text {
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 .text h4 {
 	font-family: 'Poppins', sans-serif;
 	margin-bottom: 20px;
 	font-weight: 700;
+	width:310px;
+
 }
 .text p {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	margin-bottom: 30px;
+	width:300px;
+
 }
 .text button {
 	border-radius: 20px;
@@ -51,12 +55,13 @@ img {
 	border: none;
 	padding: 8px 70px;
 	font-weight: 400;
-  box-shadow: 1px 2px 5px 1px black;
-  background:#fff;
+	box-shadow: 1px 2px 5px 1px black;
+	background: #fff;
 }
 .social-icons {
 	display: flex;
 	justify-content: center;
+	margin-bottom:10px
 }
 .social-icons i {
 	border: 1px solid white;
@@ -64,12 +69,98 @@ img {
 	padding: 6px;
 	margin: 5px;
 }
+
+/*animations*/
+/*Slide Left*/
+@keyframes slideInLeft {
+	from {
+		opacity: 0;
+		transform: translatex(-1000px);
+	}
+	to {
+		opacity: 1;
+		transform: translatex(0px);
+	}
+}
+.fadeIn-image{
+	animation: slideInLeft 5s;
+	position: relative;
+	animation-timing-function: ease;
+}
+
+/*Slide Right*/
+@keyframes slideInRight {
+	from {
+		opacity: 0;
+		transform: translatex(1000px);
+	}
+	to {
+		opacity: 1;
+		transform: translatex(0px);
+	}
+}
+.fadeIn-text{
+	animation: slideInRight 5s;
+	position: relative;
+	animation-timing-function: ease;
+}
+
+/*Slide Down*/
+@keyframes slideInDown {
+	from {
+		opacity: 0;
+		transform: translatey(-400px);
+	}
+	to {
+		opacity: 1;
+		transform: translatey(0px);
+	}
+}
+.fadeIn-header{
+	animation: slideInDown 4s;
+	position: relative;
+	animation-timing-function: ease;
+}
+
+/*Slide Up*/
+@keyframes slideInUp {
+	from {
+		opacity: 0;
+		transform: translatey(400px);
+	}
+	to {
+		opacity: 1;
+		transform: translatey(0px);
+	}
+}
+.fadeIn-icons{
+	animation: slideInUp 4s;
+	position: relative;
+	animation-timing-function: ease;
+}
+
+
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 	.App {
 		background-image: url("./images/bg-desktop.svg");
 		background-repeat: no-repeat;
 		background-size: cover;
+	}
+	.text h4 {
+		font-family: 'Poppins', sans-serif;
+		margin-bottom: 20px;
+		font-weight: 400;
+		font-size: 2.5em;
+		margin-top: 0px;
+		width:590px;
+	}
+	.text p {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+		margin-bottom: 20px;
+		font-size: .9em;
+		width:600px;
 	}
 }
 
@@ -99,12 +190,14 @@ img {
 		font-weight: 400;
 		font-size: 1.8em;
 		margin-top: 150px;
+		width:600px;
 	}
 	.text p {
 		font-family: 'Open Sans', sans-serif;
 		font-weight: 400;
 		margin-bottom: 20px;
 		font-size: .7em;
+		width:900px;
 	}
 	.text button {
 		border-radius: 20px;
@@ -141,8 +234,8 @@ img {
 		font-size: 3em;
 	}
 	.text {
-    width: 600px;
-    margin-bottom:40;
+		width: 600px;
+		margin-bottom: 40;
 		margin-left: 30px;
 	}
 	.text h4 {
