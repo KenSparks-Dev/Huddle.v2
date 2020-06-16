@@ -66,11 +66,8 @@ img {
 	border: 1px solid white;
 	border-radius: 100%;
 	padding: 6px;
-<<<<<<< HEAD
 	margin: 5px;
-=======
 	margin: 5px; 
->>>>>>> 3ae40c9e869fae27d816c49e19841bb9e5ded2a9
 	color: #fff;
 }
 
@@ -125,21 +122,18 @@ img {
 		opacity: 1;
 		transform: translatey(0px);
 	}
-<<<<<<< HEAD
 }
 .fadeIn-header {
 	animation: slideInDown 4s;
 	position: relative;
 	animation-timing-function: ease;
 }
-=======
-}
+
 .fadeIn-header {
 	animation: slideInDown 4s;
 	position: relative;
 	animation-timing-function: ease;
 }
->>>>>>> 3ae40c9e869fae27d816c49e19841bb9e5ded2a9
 
 /*Slide Up*/
 @keyframes slideInUp {
