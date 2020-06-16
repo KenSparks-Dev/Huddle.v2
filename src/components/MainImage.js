@@ -6,7 +6,6 @@ export class MainImage extends Component {
       <div className="illustration">
         <div className="header">
          <h3 className="fadeIn-header"><span><i className="fa fa-comments"></i></span> Huddle</h3>
-          <h3 className="fadeIn-header"><span><i className="fa fa-comments"></i></span> Huddle</h3>
         </div>
         <img className="fadeIn-image" src={Illustration} alt="Main-img"/>
       </div>
