@@ -89,7 +89,7 @@ img {
 		transform: translatex(0px);
 	}
 }
-.fadeIn-image {
+ .fadeIn-text {
 	animation: slideInLeft 5s;
 	position: relative;
 	animation-timing-function: ease;
@@ -106,7 +106,7 @@ img {
 		transform: translatex(0px);
 	}
 }
-.fadeIn-text {
+.fadeIn-image {
 	animation: slideInRight 5s;
 	position: relative;
 	animation-timing-function: ease;
@@ -123,13 +123,7 @@ img {
 		transform: translatey(0px);
 	}
 }
-.fadeIn-header {
-	animation: slideInDown 4s;
-	position: relative;
-	animation-timing-function: ease;
-}
-
-.fadeIn-header {
+.fadeIn-icons{
 	animation: slideInDown 4s;
 	position: relative;
 	animation-timing-function: ease;
@@ -146,7 +140,7 @@ img {
 		transform: translatey(0px);
 	}
 }
-.fadeIn-icons {
+.fadeIn-header {
 	animation: slideInUp 4s;
 	position: relative;
 	animation-timing-function: ease;
