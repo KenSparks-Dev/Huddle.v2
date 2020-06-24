@@ -74,7 +74,7 @@ img {
 .social-icons i:hover {
 	transform: scale(1.1);
 	border: 1px solid #000;
-	color: #000;
+	color: hsl(257, 40%, 49%);
 }
 
 /*animations*/
