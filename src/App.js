@@ -26,24 +26,24 @@ function App() {
 		}
 ]
 
-const random = [
-	{
-		name: "Ken",
-		food:"cheese burger",
-		color: "Black",
-		song: "Another Me by Andy Mineo",
-		movie: "Lion King",
-		writer: "Rick Remender"
-	},
-	{
-			name:"Mel",
-			food: "Sushi",
-			color: "Green",
-			song: "Any song by Masego",
-			movie: "Hookers in Revolt",
-			writer: "Lemony Snicket"
-	}
-]
+// const random = [
+// 	{
+// 		name: "Ken",
+// 		food:"cheese burger",
+// 		color: "Black",
+// 		song: "Another Me by Andy Mineo",
+// 		movie: "Lion King",
+// 		writer: "Rick Remender"
+// 	},
+// 	{
+// 			name:"Mel",
+// 			food: "Sushi",
+// 			color: "Green",
+// 			song: "Any song by Masego",
+// 			movie: "Hookers in Revolt",
+// 			writer: "Lemony Snicket"
+// 	}
+// ] remove notation to see props practice 
 
 	return (
 		<div className="App">
