@@ -23,7 +23,7 @@
   }
 }
 
-.fadeIn-image {
+.fade-in-image {
   animation: slideInRight 5s;
   position: relative;
   animation-timing-function: ease;
@@ -41,7 +41,7 @@
     transform: translatey(0px);
   }
 }
-.fadeIn-header {
+.fade-in-header {
   animation: slideInUp 4s;
   position: relative;
   animation-timing-function: ease;

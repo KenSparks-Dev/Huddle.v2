@@ -1,11 +1,11 @@
 .social-icons {
   display: flex;
   justify-content: center;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .social-icons i {
-  border: 1px solid white;
+  border: 1px solid #fff;
   border-radius: 100%;
   padding: 6px;
   margin: 5px;
@@ -15,8 +15,8 @@
 
 .social-icons i:hover {
   transform: scale(1.1);
-  border: 1px solid hsl(257, 40%, 49%);
-  color: hsl(257, 40%, 49%);
+  border: 1px solid #6648B1;
+  color: #6648B1;
 }
 
 /*Slide Down*/
@@ -32,7 +32,7 @@
   }
 }
 
-.fadeIn-icons {
+.fade-in-icons {
   animation: slideInDown 4s;
   position: relative;
   animation-timing-function: ease;
@@ -51,7 +51,7 @@
 
 @media (min-width: 1200px) {
   .social-icons i {
-    border: 1px solid white;
+    border: 1px solid #fff;
     border-radius: 100%;
     padding: 8px;
     margin: 5px;

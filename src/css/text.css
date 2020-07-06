@@ -16,12 +16,12 @@
 
 .text button {
   border-radius: 20px;
-  color: hsl(257, 40%, 49%);
+  color: #6648B1;
   border: none;
   padding: 8px 70px;
   font-weight: 400;
-  box-shadow: 1px 2px 5px 1px black;
-  background: #fff;
+  box-shadow: 1px 2px 5px 1px #000;
+  background: #ffffff;
 }
 
 .text button:hover {
@@ -41,7 +41,7 @@
   }
 }
 
-.fadeIn-text {
+.fade-in-text {
   animation: slideInLeft 5s;
   position: relative;
   animation-timing-function: ease;
@@ -84,11 +84,11 @@
 
   .text button {
     border-radius: 20px;
-    color: hsl(257, 40%, 49%);
+    color: #6648B1;
     border: none;
     padding: 8px 40px;
     font-weight: 400;
-    box-shadow: 1px 2px 5px 1px black;
+    box-shadow: 1px 2px 5px 1px #000;
   }
 }
 
@@ -120,11 +120,11 @@
 
   .text button {
     border-radius: 20px;
-    color: hsl(257, 40%, 49%);
+    color: #6648B1;
     border: none;
     padding: 9px 40px;
     font-weight: 400;
-    box-shadow: 1px 2px 5px 1px black;
+    box-shadow: 1px 2px 5px 1px #000;
     font-size: 1.2em;
   }
 }
